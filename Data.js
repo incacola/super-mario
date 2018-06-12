@@ -1,5 +1,5 @@
 const elasticsearch = require('elasticsearch');
-const customers = require('./Clients.json')
+const customers = require('./Clients.json');
 
 const client = new elasticsearch.Client({
   hosts: ['http://localhost:9200']
